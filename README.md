@@ -14,7 +14,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 ## About Me
 
-Hello! I'm Rohan maharjan, a passionate and creative wev developer with a love for technology. This section provides a brief overview of who I am, my background, and my interests.
+Hello! I'm Rohan Maharjan, a passionate and creative wev developer with a love for technology. This section provides a brief overview of who I am, my background, and my interests.
 
 ### Portfolio URL
 
