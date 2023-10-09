@@ -13,11 +13,7 @@ import { IEducation } from "@/lib/app-utils/types/education";
 const Resume = () => {
   const { loading, data, error } =
     useQuery<IWorkExperiece>(GET_WORK_EXPERIENCE);
-  const {
-    loading: educationLoading,
-    data: education,
-    error: educationError,
-  } = useQuery<IEducation>(GET_EDUCATION_HISTORY);
+  const { data: education } = useQuery<IEducation>(GET_EDUCATION_HISTORY);
 
   const workExperience = useMemo(
     () => data?.workExperience.items,
