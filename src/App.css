@@ -1,0 +1,36 @@
+.timeline_item {
+  position: relative;
+}
+
+.timeline_item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  @apply bg-green-500;
+}
+
+.timeline_item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  z-index: -1;
+  width: 1px;
+  height: 100%;
+  @apply bg-gray-500;
+}
+
+.timeline_item__content {
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
+}
+
+.timeline_item:last-child .timeline_item__content {
+  padding-bottom: 0;
+}
